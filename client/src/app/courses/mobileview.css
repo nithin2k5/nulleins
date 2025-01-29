@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+    .courseComponent {
+        padding-top:100px;
+    }
+    .courseContainer {
+        width: 90%;
+        margin: auto;
+    }
+    .card {
+        margin: 0px 0px 20px 0px;
+    }    
+    .card-in {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .card-one {
+        width: 100%;
+        background-color: rgb(66, 133, 244);
+        padding: 30px 30px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .card-two {
+        width: 100%;
+    }
+    .card-one-one-in {
+        padding-bottom: 5px;
+    }
+    .card-one-two-one {
+        padding: 10px 0px;
+    }
+    .card-one-two-one h1 {
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    
+    .card-one-three-one {
+        padding: 10px 0px;
+    }
+    
+    .card-two-in {
+        padding: 30px 30px 30px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
+    .card-two-one-in {
+        color: black;
+    }
+    .card-two-two-in {
+        padding: 20px 0px 40px 0px;
+    }
+    .card-two-two-in  h1 {
+        color: black;
+        font-size:1.2rem;
+    }
+    .card-two-three-in {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .card-two-three-in-link-one {
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-two-three-in-link-two {
+        border: 1px solid black;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

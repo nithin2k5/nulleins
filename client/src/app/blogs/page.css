@@ -1,0 +1,132 @@
+
+.blogsComponent {
+    padding-top: 4rem;
+}
+.blogs-header {
+    background-color: rgb(66, 133, 244);
+}
+.blogs-header-in {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+}
+.blogs-header-in h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+
+    width: 70%;
+}
+
+.blogs-one-one-in {
+    display: flex;
+    align-items: center;
+}
+.blogs-one-one-in h1 {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.blogs-one-one-in-links {
+
+}
+.blogs-one {
+    padding: 50px 0px;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid rgb(56, 55, 55);
+}
+.blogs-one-in {
+    width: 80%;
+    margin: auto;
+}
+.blogs-one-two {
+}
+.blogs-one-two-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.botis {
+    padding: 20px 0px;
+    width: 30%;
+}
+.botis-in {
+    display: flex;
+}
+.botis-one {
+    width: 20%;
+}
+
+.botis-one-in h1 {
+    font-size: 2.3vw;
+    color: grey;
+    font-weight: 600;
+}
+
+
+
+.botis-two {
+    width: 80%;
+}
+.botis-two-one-in p:nth-child(1) {
+    font-size: 1vw;
+    color: rgb(173, 171, 171);
+}
+.botis-two-two-in p {
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 600;
+}
+.botis-two-three-in p {
+    font-size: 1vw;
+    color: rgb(173, 171, 171);
+}
+
+
+.blogs-two-in {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.blogs-act {
+    border: 2px solid grey;
+    width: 80%;
+    margin: auto;
+
+    border-radius: 10px;
+    padding: 30px 0px 50px 0px;
+    margin-top: 30px;
+}
+.blogs-act-in {
+    width: 90%;
+    margin: auto;
+}
+.blogs-act-header-in {
+    padding: 20px 0px 10px 0px;
+}
+.blogs-act-header-in h1 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: rgb(66, 133, 244); 
+}
+.blogs-act-pi-one p {
+    font-size: 1.3vw;
+}
+.blogs-act-pi-two p {
+    font-size: 1.1vw;
+}
+.blogs-act-one {
+    margin: 30px 0px;
+}
+.blogs-act-one-in-image {
+    width: 70%;
+}
+.blogs-act-two-in p {
+    font-size: 1.4vw;
+    width: 90%;
+}

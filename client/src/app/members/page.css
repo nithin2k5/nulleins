@@ -1,0 +1,55 @@
+.MembersComponent {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MembersHeader {
+    width: 100%;
+    margin-top: 80px;
+}
+.MembersHeader-in {
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MembersHeader-in h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.pre-table-in {
+    width: 90%;
+    margin: auto;
+}
+.pre-table-in input {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    width:25%;
+    border-radius: 10px;
+}
+.MembersList {
+    width: 90%;
+    margin: auto;
+}
+.MembersList table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+.MembersList table th {
+    background-color: rgb(66, 133, 244);
+}
+
+.MembersList table tr td {
+    border: 1px solid grey;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}

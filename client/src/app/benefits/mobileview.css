@@ -1,0 +1,137 @@
+@media only screen and (max-width: 600px) {
+  
+.benefitsComponent {
+    padding-top: 80px;
+}
+.benefitsContainer {
+    width: 90%;
+    margin: auto;
+}
+.benefits-one-in {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.benefits-one {
+    padding: 40px 0px;
+}
+.benefits-one-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.benefits-one-one h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+.benefits-one-one p {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.benefits-one-two {
+    width: 100%;
+}
+.benefits-one-one-link {
+
+}
+.benefits-one-two-in {
+    width: 90%;
+    margin: auto;
+}
+.benefits-one-two-in-image {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+
+
+
+.benefits-two {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+}
+
+.benefits-two-in {
+    display: flex;
+    flex-direction: column;
+}
+.benefits-two-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black !important;
+}
+.benefits-two-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.benefits-two-two-in {
+    /* text-align: right; */
+    width: 90%;
+    margin: auto;
+}
+.benefits-two-two h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.benefits-two-two p { 
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+
+.benefits-two:nth-child(3) {
+    padding: 70px 0px;
+}
+.benefits-two:nth-child(3) .benefits-two-in {
+    flex-direction: row-reverse;
+    width: 90%;
+}
+
+.benefits-two:nth-child(3) .benefits-two-in .benefits-two-two .benefits-two-two-in {
+    width: 90%;
+    margin: auto;
+}
+
+
+.benefits-two:nth-child(5) {
+    padding: 70px 0px;
+}
+.benefits-two:nth-child(5) .benefits-two-in {
+    flex-direction: row-reverse;
+    width: 90%;
+}
+
+.benefits-two:nth-child(3) .benefits-two-in .benefits-two-two .benefits-two-two-in {
+    width: 90%;
+    margin: auto;
+}
+
+.benefit-three-in {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.benefits-six-in {
+    display: flex;
+    flex-direction: column !important;
+}
+
+}

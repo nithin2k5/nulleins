@@ -1,0 +1,158 @@
+.projectscomponent {
+    padding-top: 80px;
+}
+.projectsContainer {
+    width: 90%;
+    margin: auto;
+}
+.projects-header {
+    border: 1px solid grey;
+    padding: 25px 20px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(54, 54, 54) 0%, rgb(45, 45, 46) 35%, rgb(66, 133, 244) 100%);
+}
+.projects-header-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+.search {
+    padding: 15px 0px;
+}
+
+.search-in {
+    display: flex;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.search-in-one {
+    width: 100%;
+}
+.search-in-one input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(219, 217, 217);
+    border: none;
+    color: black;
+}
+
+.search-in-two {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.search-in-two button {
+    border: none;
+    font-size: 1vw;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.phi-one {
+    width: 70%;
+}
+.phi-two {
+    width: 30%;
+}
+.phi-one h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+.phi-one p {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.project {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.project-one {
+    border-bottom: 1px solid grey;
+}
+.project-one-in {
+    display: flex;
+    padding: 10px;
+}
+.po-in-one {
+    width: 80%;
+}
+.po-in-one  p { 
+    color: white;
+    font-size: 1.5vw;
+    color: rgb(66, 133, 244);
+    font-weight: 600;
+}
+.po-in-two-in  p { 
+    color: grey;
+    font-size: 1.2vw;
+}
+.po-in-two {
+    width: 20%;
+    display: flex;
+}
+.po-in-two-in {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.project-two-in  {
+    display: flex;
+    padding: 7px;
+}
+.pt-in-two {
+    display: flex;
+    flex-direction: column;
+}
+.pt-in-two p:nth-child(2) {
+    font-size: 1vw;
+    color: grey;
+    margin-top:5px;
+}
+.pt-in-two {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.pt-in-two-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+}
+.contribute-links {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8vw;
+}

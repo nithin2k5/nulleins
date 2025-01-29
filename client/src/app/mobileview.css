@@ -1,0 +1,666 @@
+
+/* ---------------------------- media queries ------------------------- */
+/* media queries for desktop */
+
+@media only screen and (max-width: 600px) {
+    .Nav {
+      
+    }
+  
+    .Home-one-inner {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .Home-one-inner h1 {
+      font-size: 2rem;
+      max-size: 2.5rem;
+      background: linear-gradient(to right, #ffffff 40%, #a6a6a6 90%);
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      width: 80%;
+      font-weight: 800;
+    }
+    
+    .Home-one-inner span {
+      font-size: 1rem;
+      text-align: center;
+      width: 70%;
+      color: grey;
+      line-height: 20px;
+      margin-top: 20px;
+    }
+
+
+
+
+
+
+
+/* ---------------------------- numbers -------------------------- */
+    .numbers {
+        padding: 50px 0px 100px 0px;
+    }
+    .numbers-header-in {
+        width: 80%;
+        margin: auto;
+    }
+    .numbers-header-in h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+  
+    .numbers-one-in {
+        width: 90%;
+        margin: auto;
+        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 20px 0px;
+    }
+  
+    .number-box {
+        border: 2px solid grey;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgb(47, 46, 46) 0%, rgb(6, 8, 66) 100%);
+        border-radius: 10px;
+        width: 45%;
+    }
+  
+    .numbers-boxes-tot {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .number-box-in-one {
+        display: flex;
+        align-items: center;
+
+
+    }
+    .number-box-in-one-icon {
+        background-color: rgb(66, 133, 244);
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .nbio-icon {
+        font-size: 2rem;
+    }
+    .number-box-in-two {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .number-box-in-two h1 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .number-box-in-two h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+  
+
+
+
+
+
+/* ------------------------- about --------------------------- */
+    .about {
+        padding: 50px 0px;
+    }
+    .about-in {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-one {
+        width: 100%;
+    }
+    .about-one-in {
+        width: 90%;
+        margin: auto;
+    }
+    .about-two {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .about-two-in {
+        width: 90%;
+        margin: auto;
+    }
+    .about-two-in-header-in {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .about-two-in-header-in h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+  
+    .about-two-in-one-in p {
+        font-size: 1rem;
+        color: grey;
+    }
+  
+    .about-two-in-two-in {
+        padding: 20px 0px 0px 0px;
+    }
+    .about-two-in-two-link {
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+    }
+    
+  
+
+
+
+
+    .Home-two {
+        background-color: white;
+        padding: 30px 0px 90px 0px;
+    }
+
+    .Home-two-inner {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  .Home-two-one {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .Home-two-one-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Home-two-one-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 0px 0px
+  }
+  .Home-two-one-one h1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .Home-two-one-one h2 {
+    color: rgb(78, 76, 76);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  
+  
+  .Home-two-one-one span {
+    color: #2576f9;
+    font-size: 3rem;
+  }
+  
+  
+  .Home-two-one-two-in-image {
+    width: 100%;
+  }
+
+
+
+
+  .upcoming {
+    padding: 50px 0px;
+    background-color: whitesmoke;
+  }
+  
+  .upcoming-in {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 0px;
+  }
+  .upcoming-header-in {
+    width: 80%;
+    margin: auto;
+  }
+  .upcoming-header-in h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+  }
+
+
+  .eve {
+    width: 100%;
+  }
+
+  .eve-in:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .eve-two-in {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(30, 11, 11, 0.35) 0px 5px 15px;
+  }
+  .eve-two-in-one {
+    border-bottom: 1px solid rgb(212, 210, 210);
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .eve-two-in-one p {
+    font-size: 1.1rem;
+  }
+  .eve-two-in-two {
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .eve-two-in-two-link {
+    color: #2a91f2;
+  }
+  
+  
+  .eve-one-in-ano-one {
+    position: relative;
+    background-image: url('../../public/Assets/VimMasterClass.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1; 
+  }
+  
+  .eve-one-in-ano-two {
+    position: relative;
+    background-image: url('../../public/Assets/Programming.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1; 
+  }
+  .eve-one-in-ano-three {
+    position: relative;
+    background-image: url('../../public/Assets/Programming.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1; 
+  }
+  .eve-one-in:nth-child(2) {
+    background-image: url('../../public/Assets/Programming.png');
+  }
+  
+  
+  
+  
+  .eve-one-in::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 36, 38, 0.3);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: -1; /* Decreased z-index value for the pseudo-element */
+  }
+  
+  .eve-one-in p:nth-child(1) {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 8px #0d0000;
+  }
+  .eve-one-in p:nth-child(2) {
+    position: relative; /* Add position: relative to enable z-index */
+    z-index: 2; /* Increase z-index for the <p> tags */
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    text-shadow: 2px 2px 8px #0d0000;
+  }
+  
+  
+  .eve-two-in {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+
+
+/* ---------------------- stories ------------------------ */
+
+    .stories {
+        background-color: rgb(37, 37, 37);
+    }
+  
+  .stories-in {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .soi-one h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #3ae590 0%, #7876e3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  .soi-one p {
+    margin-top: 20px;
+  }
+  .soi-two {
+    margin-top: 20px;
+  }
+  .soi-three {
+    margin-top: 20px;
+  }
+  .soi-three h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  
+  .soi-four {
+    margin-top: 20px;
+  }
+  .soi-four p {
+    font-size: 1rem;
+    color: grey;
+  }
+  
+  
+  .stories-one-in {
+    width: 100%; 
+  } 
+  
+  .stories-one {
+    width: 100%;
+    padding: 70px 20px;
+  
+  }
+  .stories-two {
+    width: 100%;
+    padding: 20px 0px 60px 0px;
+    border: none;
+  }
+  .stories-two-in h1 {
+    position: relative;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+
+  
+  .stories-two-in {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .stories-two-in p {
+    color: grey;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  
+
+
+
+/* ------------------- social media --------------  */
+.socialmedia {
+    padding: 50px 0px 0px 0px;
+  }
+  .socialmedia-in {
+    width: 80%;
+    margin: auto;
+  }
+  .socialmedia-header {
+    width: 100%;
+  }
+  .socialmedia-header-in {
+    margin: auto;
+    padding: 50px 0px;
+    width: 100%;
+  }
+  .socialmedia-header-in h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+  }
+  .socialmedia-header-in p {
+    font-size: 1.2rem;
+    color: grey;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .socialmedia-one {
+    width: 100%;
+    margin: auto;
+  }
+  .socialmedia-one-in {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .socialmedia-one-one {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .smoi {
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+
+/* ---------------- partner --------------- */
+.partner-in {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+  
+  }
+  .partner-header-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .partner-header-in h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .partner-header-in p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .partner-one {
+    margin-top: 40px;
+  }
+  .partner-one-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .partner-one-in-link {
+    border: 1px solid rgb(66, 133, 244);
+    background-color: rgb(66, 133, 244);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+
+  /* -------------------------- Footer ------------------------- */
+
+
+
+.Footer { 
+    background-color: black;
+    margin-top: 50px;
+    background-color: rgb(32, 32, 32); 
+    border-top: 5px solid rgb(103, 102, 102);
+}
+
+
+.Footer-one-in {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(106, 106, 106);
+  padding: 10px 0px;
+}
+
+
+.Footer-two-in {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0px;
+}
+
+.Footer-two-one {
+  width: 100%;
+}
+
+.Footer-two-one-in h1 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.Footer-two-one-in h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Footer-two-two {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+}
+.Footer-two-two-one {
+  display: flex;
+
+}
+.Footer-two-two-one-in {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+}
+.Footer-two-two-two {
+  display: flex;
+  justify-content: flex-end;
+}
+.Footer-two-two-two-in {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.Footer-two-two-two-in p {
+  font-size: 1.2rem;
+  color: grey;
+  margin-top: 10px;
+}
+
+.Footer-tti-link {
+  font-size: 1rem;
+}
+
+.Footer-two-one-in p {
+  font-size: 1rem;
+}
+
+.Footer-two-one-in h2 {
+    font-size: 2rem;
+}
+
+.Footer-foo-link {
+  margin: 0px 10px 0px 0px;
+  color: grey;
+}
+
+.Footer-last {
+  background-color: rgb(40, 40, 40);
+}
+.Footer-last-in {
+  width: 90%;
+  margin: auto;
+  padding: 15px 0px;
+}
+.Footer-last-in p {
+  font-size: 0.8rem;
+}
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+} 
+  
